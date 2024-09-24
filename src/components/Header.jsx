@@ -2,14 +2,11 @@ function Header() {
   return (
     <div className="header">
       <div className="header__container">
-        <div className="header__left">
-          <img src="man.jpg" alt="Profile picture" />
-        </div>
-        <div className="header__right">
-          <div className="header__right-1">Hi, I am</div>
-          <div className="header__right-2">Surya Kumar D</div>
-          <div className="header__right-3">Front-end dev</div>
-        </div>
+        <img className="header__img" src="man.jpg" alt="Profile picture" />
+
+        <div className="header--1">Hi, I am</div>
+        <div className="header--2">Surya Kumar D</div>
+        <div className="header--3">Front-end dev</div>
       </div>
     </div>
   );
